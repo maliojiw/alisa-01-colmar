@@ -176,16 +176,55 @@ button:hover {
 
 .ahhhh{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    margin-left: 2px; 
     background-color: #dddddd; 
 
 }
 .scream{
     display: flex;
     flex-direction: column;
-    margin-left: 2px; 
     background-color: #ffffff; 
+
+}
+.layout :first-child{
+    display: flex;
+    margin-left: 72px;
+    margin-right: 8px;
+
+}
+.layout :last-child{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 72px;
+
+}
+#idk{
+    display: flex;
+    margin-left: 72px;
+    margin-right: 8px;
+
+}
+#wym{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 72px;
+
+}
+#sec{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+#fif{
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+.scream img {
+    display: flex;
 
 }
 
