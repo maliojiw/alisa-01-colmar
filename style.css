@@ -174,65 +174,66 @@ button:hover {
     margin: 0; /* Reset margin to remove default spacing */
 }
 
+/*end third section*/
+
 .ahhhh{
     display: flex;
+    height: auto;
     width: 100%;
     flex-direction: column;
     background-color: #dddddd; 
 
 }
-.scream{
+
+.cry {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.cry h1 {
+    margin-bottom: 8px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 72px;
+    margin-bottom: 72px;
+
+}
+
+.scream {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff; 
-
+    align-items: center;
+    background-color: white;
+    margin-top: 20px; 
 }
-.layout :first-child{
-    display: flex;
-    margin-left: 72px;
-    margin-right: 8px;
 
+.scream h1,
+.scream p {
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 5px; 
 }
-.layout :last-child{
-    display: flex;
-    margin-left: 8px;
-    margin-right: 72px;
 
-}
-#idk{
-    display: flex;
-    margin-left: 72px;
-    margin-right: 8px;
-
-}
-#wym{
-    display: flex;
-    margin-left: 8px;
-    margin-right: 72px;
-
-}
-#sec{
-    display: flex;
-    margin-left: 8px;
-    margin-right: 8px;
-
-}
-#fif{
-    display: flex;
-    margin-left: 8px;
-    margin-right: 8px;
-
-}
 .scream img {
-    display: flex;
-
+    max-width: 100%;
+    height: auto;
 }
+
+.scream h1 {
+    margin-top: 8px;
+    text-align: center;
+}
+
+
 
 .layout {
         display: flex;
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: repeat(3, 1fr);
+      
         gap: 8px;
         grid-auto-flow: row dense;
     
@@ -244,7 +245,7 @@ button:hover {
 
 
 .thesis-container > h1 {
-    color: darkgray;
+    color: rgb(41, 36, 36);
     text-align: center;
     padding: 5%;
 }
